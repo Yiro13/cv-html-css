@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+.fondo {
+    display: block;
+    /**background: rgb(195,94,34);
+    background: linear-gradient(0deg, rgba(195,94,34,1) 0%, rgba(255,241,68,1) 100%); **/
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+    width: 100%;
+    height: 1300px;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    background-image: url('/img/yo.jpeg');
+    background-size: cover;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.datos1 {
+    color: aliceblue;
+    text-align: center;
+    margin: 0 auto;
+    width: 95%;
+    border-radius: 10px;
+    height: 150px;
+    background: linear-gradient(90deg, rgba(65,65,65,1) 0%, rgba(43,43,43,1) 50%, rgba(18,18,18,1) 100%); 
+}
+
+.datos1 h1 {
+    font-weight: 400;
+}
+
+.datos1 h1 {
+    padding-top: 20px;
+}
+
+.datos2 {
+    color: aliceblue;
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 10px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(195,94,34,1) 0%, rgba(255,51,51,1) 100%); 
+}
+
+.datos2 p{
+    font-size: 20px;
+    padding-left: 20%;
+    padding-top: 20px;
+}
+
+.habilidades {
+    color: aliceblue;
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+    border-radius: 10px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(255,51,51,1) 0%, rgba(195,94,34,1) 100%); 
+}
+
+.habilidades li {
+    list-style: none;
+    font-size: 20px;
+    padding-left: 20%;
+    padding-top: 10px;
+}
+
+.contacto {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.iconos {
+    color: aliceblue;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+}
+
+.iconos:hover {
+    color: greenyellow;
+}
+
+.os {
+    width: 50px;
+}
